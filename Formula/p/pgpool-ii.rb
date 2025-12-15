@@ -1,8 +1,8 @@
 class PgpoolIi < Formula
   desc "PostgreSQL connection pool server"
   homepage "https://www.pgpool.net/mediawiki/index.php/Main_Page"
-  url "https://www.pgpool.net/mediawiki/images/pgpool-II-4.6.4.tar.gz"
-  sha256 "ef0d2e91a9a11d737c6476247219e679f718bec53550646189594ef9aefd298d"
+  url "https://www.pgpool.net/mediawiki/images/pgpool-II-4.6.5.tar.gz"
+  sha256 "43dcb860e7099d3e322418378e856935f76bb4f3f09b9024c9b7d65af55e4036"
   license all_of: ["HPND", "ISC"] # ISC is only for src/utils/strlcpy.c
 
   livecheck do
